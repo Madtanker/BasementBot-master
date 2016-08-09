@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Madtanker/BasementBot/master/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/Madtanker/BasementBot-master/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -179,13 +179,13 @@
     var botCreatorIDs = ["4224570"];
 
     var basicBot = {
-        version: "",
+        version: null,
         status: false,
         name: "BasementCouch",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Madtanker/BasementBot/master/basicBot.js",
-        cmdLink: "http://git.io/pUGW",
-        chatLink: "https://rawgit.com/Madtanker/BasementBot/master/lang/en.json",
+        scriptLink: "https://rawgit.com/Madtanker/BasementBot-master/master/basicBot.js",
+        cmdLink: "http://git.io/v6Zhs",
+        chatLink: "https://rawgit.com/Madtanker/BasementBot-master/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -193,7 +193,7 @@
         settings: {
             botName: "BasementCouch",
             language: "english",
-            chatLink: "https://rawgit.com/Madtanker/BasementBot/master/lang/en.json",
+            chatLink: "https://rawgit.com/Madtanker/BasementBot-master/master/lang/en.json",
             startupCap: 200, // 1-200
             startupVolume: 15, // 0-100
             startupEmoji: true, // true or false
@@ -233,7 +233,7 @@
             filterChat: false,
             etaRestriction: false,
             welcome: true,
-            opLink: "http://www.theedmbasement.com/#!bannedsongs/c17yd",
+            opLink: null,
             rulesLink: "http://www.theedmbasement.com/",
             themeLink: null,
             fbLink: "https://www.facebook.com/TheEDMBasement",
@@ -278,7 +278,7 @@
             commandLiteral: "!",
             blacklists: {
                 NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-                OP: "https://rawgit.com/Madtanker/BasementBot/master/blacklists/Banlist.json"
+                OP: "https://rawgit.com/Madtanker/BasementBot-master/master/blacklists/Banlist.json"
             }
         },
         room: {
