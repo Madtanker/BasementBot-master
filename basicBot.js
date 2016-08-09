@@ -178,8 +178,7 @@
     var botMaintainer = "DJ Spiker, Madtanker & DNPG"
     var botCreatorIDs = ["4224570"];
 
-    var basicBot = {
-        version: null,
+    var basicBot = { 
         status: false,
         name: "BasementCouch",
         loggedInID: null,
