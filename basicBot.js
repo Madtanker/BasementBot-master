@@ -243,7 +243,7 @@
                                 "Fun Fact: When possums are playing ‘possum’, they are not \“playing.\” They actually pass out from sheer terror. ",
                                 "Fun Fact: Plug.dj was first released on February 29th, \"a leap day\".",
                                 "Please remember to WOOT/MEH while in the Waitlist.",
-                                "Fun Fact: Most people yawn when they read the word \"yawn\" or \"yawning\". \:trollface\:",
+                                "Fun Fact: Most people yawn wher they read the word \"yawn\" or \"yawning\". \:trollface\:",
                                 "Fun Fact: North Korea uses a fax machine to send threats to South Korea.",
                                 "Fun Fact: It took the inventor of the Rubik’s cube one month before he was able to solve the Cube for himself.",
                                 "If you accidently disconnect you can type \"!dc\" to get your spot in the waitlist back.",
@@ -2313,7 +2313,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         var msg = chat.message;
-                        if (msg.length <= cmd.length + 1) return API.sendChat('/me ' + basicBot.settings.motd);
+                        if (msg.length <= cmd.length + 1) return API.sendChat('/me : ' + basicBot.settings.motd);
                         var argument = msg.substring(cmd.length + 1);
                         if (!basicBot.settings.motdEnabled) basicBot.settings.motdEnabled = !basicBot.settings.motdEnabled;
                         if (isNaN(argument)) {
