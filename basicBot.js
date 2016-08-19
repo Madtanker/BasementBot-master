@@ -229,7 +229,7 @@
             afkRankCheck: "user",
             motdEnabled: true,
             motdInterval: 20,
-            motd: "Welcome to the EDM Basement! We play Electronic Dance Music (EDM), Techno, House, Chill, Funk, Dubstep, Drum and Bass, Etc. Sorry, NO Hardstyle or Hardcore. Hop up on stage and spread the love for great music",
+            motd: "Welcome to the EDM Basement! We play Electronic Dance Music (EDM), Techno, House, Chill, Funk, Dubstep, Drum and Bass, Etc. Sorry, NO Hardstyle or Hardcore. http://www.theedmbasement.com/ ",
             filterChat: false,
             etaRestriction: false,
             welcome: true,
