@@ -197,7 +197,6 @@
             startupCap: 200, // 1-200
             startupVolume: 15, // 0-100
             startupEmoji: true, // true or false
-            autowoot: false,
             maximumAfk: 120,
             afkRemoval: true,
             newMaximumDc: 30,
@@ -1534,15 +1533,15 @@
                 }
             },
 
-            autowootCommand: {
-                command: 'autowoot',
-                rank: 'user',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        API.sendChat(basicBot.chat.autowoot);
+           // autowootCommand: {
+                //command: 'autowoot',
+                //rank: 'user',
+                //type: 'exact',
+                //functionality: function (chat, cmd) {
+                  //  if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    //if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    //else {
+                       // API.sendChat(basicBot.chat.autowoot);
                     }
                 }
             },
