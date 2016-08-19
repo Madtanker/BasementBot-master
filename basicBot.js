@@ -197,7 +197,6 @@
             startupCap: 200, // 1-200
             startupVolume: 15, // 0-100
             startupEmoji: true, // true or false
-            autowoot: false,
             maximumAfk: 120,
             afkRemoval: true,
             newMaximumDc: 30,
