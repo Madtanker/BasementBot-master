@@ -895,10 +895,11 @@
             basicBot.roomUtilities.intervalMessage();
             basicBot.room.currentDJID = obj.dj.id;
 
-            var songInfo = obj.media.author + ':' + obj.media.title;
+            var songAuthor = 'author:' + obj.media.author;
+            var songTitle = 'title:' + obj.media.title;
             for (var bl in basicBot.room.blacklists) {
                 if (basicBot.settings.blacklistEnabled) {
-                    if (basicBot.room.blacklists[bl].indexOf(songInfo) > -1) {
+                    if (basicBot.room.blacklists[bl].indexOf(songAuthor) > -1 && basicBot.room.blacklists[bl].indexOf(songTitle) > -1) {
                         API.sendChat(subChat(basicBot.chat.isblacklisted, {blacklist: bl}));
                         return API.moderateForceSkip();
                     }
