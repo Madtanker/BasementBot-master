@@ -1,13 +1,14 @@
 {
     "1":{
-        "mid": "1:OPsongID1"
+        "author": "OMFG",
+        "title": "Hello"
     },
     "2":{
-        "title": "This is a OP song",
-        "author": "The OP band",
-        "mid": "1:OPsongID2"
+        "author": "Meg & Dia",
+        "title": "Monster (DotEXE Remix)"
     },
     "3":{
-        "mid": "1:OPsongID3"
+        "author": "Darude",
+        "title": "Sandstorm"
     }
 }
