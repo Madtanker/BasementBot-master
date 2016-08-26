@@ -897,7 +897,10 @@
 
             var songAuthor = 'author:' + obj.media.author;
             var songTitle = 'title:' + obj.media.title;
+            console.log(songAuthor);
+			console.log(songTitle);
             for (var bl in basicBot.room.blacklists) {
+            	console.log(basicBot.room.blacklists[bl]);
                 if (basicBot.settings.blacklistEnabled) {
                     if (basicBot.room.blacklists[bl].indexOf(songAuthor) > -1 && basicBot.room.blacklists[bl].indexOf(songTitle) > -1) {
                         API.sendChat(subChat(basicBot.chat.isblacklisted, {blacklist: bl}));
