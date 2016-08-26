@@ -1,14 +1,17 @@
 {
     "1":{
         "author": "OMFG",
-        "title": "Hello"
+        "title": "Hello",
+        "mid": "OMFG - Hello"
     },
     "2":{
         "author": "Meg & Dia",
-        "title": "Monster (DotEXE Remix)"
+        "title": "Monster (DotEXE Remix)",
+        "mid": "Meg & Dia - Monster (DotEXE Remix)"
     },
     "3":{
         "author": "Darude",
-        "title": "Sandstorm"
+        "title": "Sandstorm",
+        "mid": "Darude - Sandstorm"
     }
 }
