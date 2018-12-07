@@ -61,7 +61,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "BasementCouch",
         language: "english",
-        chatLink: "https://rawgit.com/Madtanker/BasementBot/master/lang/en.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/Madtanker/BasementBot/lang/en.json",
         startupCap: 200, // 1-200
         startupVolume: 25, // 0-100
         startupEmoji: true, // true or false
@@ -111,7 +111,7 @@
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            Ban: "https://rawgit.com/Madtanker/BasementBot/master/blacklists/Banlist.json",
+            Ban: "https://cdn.jsdelivr.net/gh/Madtanker/BasementBot/blacklists/Banlist.json",
         }
     }));
 
